@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D73D2D002543A4D400D7064E /* PigTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D2CFF2543A4D400D7064E /* PigTest.swift */; };
+		D73D2D052543A68500D7064E /* PigServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D2D042543A68500D7064E /* PigServiceTests.swift */; };
+		D73D2D0A2543AAC300D7064E /* PigListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D2D092543AAC300D7064E /* PigListViewControllerTests.swift */; };
+		D73D2D152544F10200D7064E /* DetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D2D142544F10200D7064E /* DetailViewControllerTests.swift */; };
+		D776EA89252426A7003270E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D776EA88252426A7003270E2 /* AppDelegate.swift */; };
+		D776EA8B252426A7003270E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D776EA8A252426A7003270E2 /* SceneDelegate.swift */; };
+		D776EA8D252426A7003270E2 /* PigListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D776EA8C252426A7003270E2 /* PigListViewController.swift */; };
+		D776EA90252426A7003270E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D776EA8E252426A7003270E2 /* Main.storyboard */; };
+		D776EA93252426A7003270E2 /* AngryOinkers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D776EA91252426A7003270E2 /* AngryOinkers.xcdatamodeld */; };
+		D776EA95252426AA003270E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D776EA94252426AA003270E2 /* Assets.xcassets */; };
+		D776EA98252426AA003270E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D776EA96252426AA003270E2 /* LaunchScreen.storyboard */; };
+		D776EAA3252426AB003270E2 /* AngryOinkersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D776EAA2252426AB003270E2 /* AngryOinkersTests.swift */; };
+		D776EAAE252426AB003270E2 /* AngryOinkersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D776EAAD252426AB003270E2 /* AngryOinkersUITests.swift */; };
+		D776EAC225243521003270E2 /* PigCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D776EAC125243521003270E2 /* PigCell.swift */; };
+		D776EAC725244084003270E2 /* Pig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D776EAC625244084003270E2 /* Pig.swift */; };
+		D776EACC252442C5003270E2 /* PigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D776EACB252442C5003270E2 /* PigService.swift */; };
+		D776EAD92524CD6D003270E2 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = D776EAD82524CD6D003270E2 /* SwiftSoup */; };
+		D776EAE22524E0AB003270E2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D776EAE12524E0AA003270E2 /* Podfile */; };
+		D7CEF2822539C2FA00966609 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CEF2812539C2FA00966609 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D776EA9F252426AB003270E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D776EA7D252426A7003270E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D776EA84252426A7003270E2;
+			remoteInfo = AngryOinkers;
+		};
+		D776EAAA252426AB003270E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D776EA7D252426A7003270E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D776EA84252426A7003270E2;
+			remoteInfo = AngryOinkers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D73D2CFF2543A4D400D7064E /* PigTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PigTest.swift; sourceTree = "<group>"; };
+		D73D2D042543A68500D7064E /* PigServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PigServiceTests.swift; sourceTree = "<group>"; };
+		D73D2D092543AAC300D7064E /* PigListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PigListViewControllerTests.swift; sourceTree = "<group>"; };
+		D73D2D142544F10200D7064E /* DetailViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControllerTests.swift; sourceTree = "<group>"; };
+		D776EA85252426A7003270E2 /* AngryOinkers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngryOinkers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D776EA88252426A7003270E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D776EA8A252426A7003270E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D776EA8C252426A7003270E2 /* PigListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PigListViewController.swift; sourceTree = "<group>"; };
+		D776EA8F252426A7003270E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D776EA92252426A7003270E2 /* AngryOinkers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AngryOinkers.xcdatamodel; sourceTree = "<group>"; };
+		D776EA94252426AA003270E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D776EA97252426AA003270E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D776EA99252426AA003270E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D776EA9E252426AB003270E2 /* AngryOinkersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngryOinkersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D776EAA2252426AB003270E2 /* AngryOinkersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngryOinkersTests.swift; sourceTree = "<group>"; };
+		D776EAA4252426AB003270E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D776EAA9252426AB003270E2 /* AngryOinkersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngryOinkersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D776EAAD252426AB003270E2 /* AngryOinkersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngryOinkersUITests.swift; sourceTree = "<group>"; };
+		D776EAAF252426AB003270E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D776EAC125243521003270E2 /* PigCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PigCell.swift; sourceTree = "<group>"; };
+		D776EAC625244084003270E2 /* Pig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pig.swift; sourceTree = "<group>"; };
+		D776EACB252442C5003270E2 /* PigService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PigService.swift; sourceTree = "<group>"; };
+		D776EAE12524E0AA003270E2 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		D7CEF2812539C2FA00966609 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D776EA82252426A7003270E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D776EAD92524CD6D003270E2 /* SwiftSoup in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D776EA9B252426AB003270E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D776EAA6252426AB003270E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D776EA7C252426A7003270E2 = {
+			isa = PBXGroup;
+			children = (
+				D776EAE12524E0AA003270E2 /* Podfile */,
+				D776EA87252426A7003270E2 /* AngryOinkers */,
+				D776EAA1252426AB003270E2 /* AngryOinkersTests */,
+				D776EAAC252426AB003270E2 /* AngryOinkersUITests */,
+				D776EA86252426A7003270E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D776EA86252426A7003270E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D776EA85252426A7003270E2 /* AngryOinkers.app */,
+				D776EA9E252426AB003270E2 /* AngryOinkersTests.xctest */,
+				D776EAA9252426AB003270E2 /* AngryOinkersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D776EA87252426A7003270E2 /* AngryOinkers */ = {
+			isa = PBXGroup;
+			children = (
+				D776EAD32524441F003270E2 /* Controllers */,
+				D776EAD2252443D8003270E2 /* Views */,
+				D776EAD1252443A6003270E2 /* Data */,
+				D776EA88252426A7003270E2 /* AppDelegate.swift */,
+				D776EA8A252426A7003270E2 /* SceneDelegate.swift */,
+				D776EA8E252426A7003270E2 /* Main.storyboard */,
+				D776EA94252426AA003270E2 /* Assets.xcassets */,
+				D776EA96252426AA003270E2 /* LaunchScreen.storyboard */,
+				D776EA99252426AA003270E2 /* Info.plist */,
+				D776EA91252426A7003270E2 /* AngryOinkers.xcdatamodeld */,
+			);
+			path = AngryOinkers;
+			sourceTree = "<group>";
+		};
+		D776EAA1252426AB003270E2 /* AngryOinkersTests */ = {
+			isa = PBXGroup;
+			children = (
+				D73D2D142544F10200D7064E /* DetailViewControllerTests.swift */,
+				D776EAA2252426AB003270E2 /* AngryOinkersTests.swift */,
+				D776EAA4252426AB003270E2 /* Info.plist */,
+				D73D2CFF2543A4D400D7064E /* PigTest.swift */,
+				D73D2D042543A68500D7064E /* PigServiceTests.swift */,
+				D73D2D092543AAC300D7064E /* PigListViewControllerTests.swift */,
+			);
+			path = AngryOinkersTests;
+			sourceTree = "<group>";
+		};
+		D776EAAC252426AB003270E2 /* AngryOinkersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D776EAAD252426AB003270E2 /* AngryOinkersUITests.swift */,
+				D776EAAF252426AB003270E2 /* Info.plist */,
+			);
+			path = AngryOinkersUITests;
+			sourceTree = "<group>";
+		};
+		D776EAD1252443A6003270E2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D776EAC625244084003270E2 /* Pig.swift */,
+				D776EACB252442C5003270E2 /* PigService.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D776EAD2252443D8003270E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D776EAC125243521003270E2 /* PigCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D776EAD32524441F003270E2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D776EA8C252426A7003270E2 /* PigListViewController.swift */,
+				D7CEF2812539C2FA00966609 /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D776EA84252426A7003270E2 /* AngryOinkers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D776EAB2252426AB003270E2 /* Build configuration list for PBXNativeTarget "AngryOinkers" */;
+			buildPhases = (
+				D776EA81252426A7003270E2 /* Sources */,
+				D776EA82252426A7003270E2 /* Frameworks */,
+				D776EA83252426A7003270E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AngryOinkers;
+			packageProductDependencies = (
+				D776EAD82524CD6D003270E2 /* SwiftSoup */,
+			);
+			productName = AngryOinkers;
+			productReference = D776EA85252426A7003270E2 /* AngryOinkers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D776EA9D252426AB003270E2 /* AngryOinkersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D776EAB5252426AB003270E2 /* Build configuration list for PBXNativeTarget "AngryOinkersTests" */;
+			buildPhases = (
+				D776EA9A252426AB003270E2 /* Sources */,
+				D776EA9B252426AB003270E2 /* Frameworks */,
+				D776EA9C252426AB003270E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D776EAA0252426AB003270E2 /* PBXTargetDependency */,
+			);
+			name = AngryOinkersTests;
+			productName = AngryOinkersTests;
+			productReference = D776EA9E252426AB003270E2 /* AngryOinkersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D776EAA8252426AB003270E2 /* AngryOinkersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D776EAB8252426AB003270E2 /* Build configuration list for PBXNativeTarget "AngryOinkersUITests" */;
+			buildPhases = (
+				D776EAA5252426AB003270E2 /* Sources */,
+				D776EAA6252426AB003270E2 /* Frameworks */,
+				D776EAA7252426AB003270E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D776EAAB252426AB003270E2 /* PBXTargetDependency */,
+			);
+			name = AngryOinkersUITests;
+			productName = AngryOinkersUITests;
+			productReference = D776EAA9252426AB003270E2 /* AngryOinkersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D776EA7D252426A7003270E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					D776EA84252426A7003270E2 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					D776EA9D252426AB003270E2 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = D776EA84252426A7003270E2;
+					};
+					D776EAA8252426AB003270E2 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = D776EA84252426A7003270E2;
+					};
+				};
+			};
+			buildConfigurationList = D776EA80252426A7003270E2 /* Build configuration list for PBXProject "AngryOinkers" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D776EA7C252426A7003270E2;
+			packageReferences = (
+				D776EAD72524CD6D003270E2 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
+			productRefGroup = D776EA86252426A7003270E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D776EA84252426A7003270E2 /* AngryOinkers */,
+				D776EA9D252426AB003270E2 /* AngryOinkersTests */,
+				D776EAA8252426AB003270E2 /* AngryOinkersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D776EA83252426A7003270E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D776EA98252426AA003270E2 /* LaunchScreen.storyboard in Resources */,
+				D776EA95252426AA003270E2 /* Assets.xcassets in Resources */,
+				D776EAE22524E0AB003270E2 /* Podfile in Resources */,
+				D776EA90252426A7003270E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D776EA9C252426AB003270E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D776EAA7252426AB003270E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D776EA81252426A7003270E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D776EAC725244084003270E2 /* Pig.swift in Sources */,
+				D776EACC252442C5003270E2 /* PigService.swift in Sources */,
+				D776EA8D252426A7003270E2 /* PigListViewController.swift in Sources */,
+				D776EA93252426A7003270E2 /* AngryOinkers.xcdatamodeld in Sources */,
+				D776EA89252426A7003270E2 /* AppDelegate.swift in Sources */,
+				D776EA8B252426A7003270E2 /* SceneDelegate.swift in Sources */,
+				D776EAC225243521003270E2 /* PigCell.swift in Sources */,
+				D7CEF2822539C2FA00966609 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D776EA9A252426AB003270E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73D2D002543A4D400D7064E /* PigTest.swift in Sources */,
+				D73D2D152544F10200D7064E /* DetailViewControllerTests.swift in Sources */,
+				D73D2D052543A68500D7064E /* PigServiceTests.swift in Sources */,
+				D73D2D0A2543AAC300D7064E /* PigListViewControllerTests.swift in Sources */,
+				D776EAA3252426AB003270E2 /* AngryOinkersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D776EAA5252426AB003270E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D776EAAE252426AB003270E2 /* AngryOinkersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D776EAA0252426AB003270E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D776EA84252426A7003270E2 /* AngryOinkers */;
+			targetProxy = D776EA9F252426AB003270E2 /* PBXContainerItemProxy */;
+		};
+		D776EAAB252426AB003270E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D776EA84252426A7003270E2 /* AngryOinkers */;
+			targetProxy = D776EAAA252426AB003270E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D776EA8E252426A7003270E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D776EA8F252426A7003270E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D776EA96252426AA003270E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D776EA97252426AA003270E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D776EAB0252426AB003270E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D776EAB1252426AB003270E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D776EAB3252426AB003270E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AngryOinkers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DallonAsnes.AngryOinkers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D776EAB4252426AB003270E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AngryOinkers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DallonAsnes.AngryOinkers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D776EAB6252426AB003270E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AngryOinkersTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DallonAsnes.AngryOinkersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AngryOinkers.app/AngryOinkers";
+			};
+			name = Debug;
+		};
+		D776EAB7252426AB003270E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AngryOinkersTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DallonAsnes.AngryOinkersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AngryOinkers.app/AngryOinkers";
+			};
+			name = Release;
+		};
+		D776EAB9252426AB003270E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AngryOinkersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DallonAsnes.AngryOinkersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AngryOinkers;
+			};
+			name = Debug;
+		};
+		D776EABA252426AB003270E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AngryOinkersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DallonAsnes.AngryOinkersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AngryOinkers;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D776EA80252426A7003270E2 /* Build configuration list for PBXProject "AngryOinkers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D776EAB0252426AB003270E2 /* Debug */,
+				D776EAB1252426AB003270E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D776EAB2252426AB003270E2 /* Build configuration list for PBXNativeTarget "AngryOinkers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D776EAB3252426AB003270E2 /* Debug */,
+				D776EAB4252426AB003270E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D776EAB5252426AB003270E2 /* Build configuration list for PBXNativeTarget "AngryOinkersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D776EAB6252426AB003270E2 /* Debug */,
+				D776EAB7252426AB003270E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D776EAB8252426AB003270E2 /* Build configuration list for PBXNativeTarget "AngryOinkersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D776EAB9252426AB003270E2 /* Debug */,
+				D776EABA252426AB003270E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D776EAD72524CD6D003270E2 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D776EAD82524CD6D003270E2 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D776EAD72524CD6D003270E2 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		D776EA91252426A7003270E2 /* AngryOinkers.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D776EA92252426A7003270E2 /* AngryOinkers.xcdatamodel */,
+			);
+			currentVersion = D776EA92252426A7003270E2 /* AngryOinkers.xcdatamodel */;
+			path = AngryOinkers.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D776EA7D252426A7003270E2 /* Project object */;
+}
