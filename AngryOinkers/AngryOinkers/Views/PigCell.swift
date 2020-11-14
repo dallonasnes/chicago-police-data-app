@@ -18,7 +18,7 @@ class PigCell: UITableViewCell {
             self.pigNameLabel.text = pig?.name
             let nf = NumberFormatter();
             nf.numberStyle = .decimal;
-            self.pigDescriptionLabel.text = "$" + nf.string(from: NSNumber(value: pig!.total_payments))!
+            self.pigDescriptionLabel.text = "Misconduct Cost: $" + nf.string(from: NSNumber(value: pig!.total_payments))!
             self.accessoryType = pig!.confirmedSighting ? .checkmark : .none
             
             DispatchQueue.global(qos: .userInitiated).async {

@@ -20,12 +20,9 @@ class DetailViewController: UIViewController {
         pigRoleLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         pigRoleLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
         
-        pigRoleLabel.text = "As " + pig.role + " this lil piggy had \(pig.complaint_count) complaints and cost us taxpayers  \(pigCell.pigDescriptionLabel.text!) in misconduct settlements! OINK! "
+        pigRoleLabel.text = "Role: " + pig.role + "\nComplaints: \(pig.complaint_count) \n\(pigCell.pigDescriptionLabel.text!)"
         pigRoleLabel.numberOfLines = 0
         pigRoleLabel.lineBreakMode = NSLineBreakMode.byWordWrapping
-        pigRoleLabel.adjustsFontSizeToFitWidth = true
-        pigRoleLabel.textAlignment = NSTextAlignment.center
-        pigRoleLabel.sizeToFit()
         
         view.addSubview(pigRoleLabel)
         
