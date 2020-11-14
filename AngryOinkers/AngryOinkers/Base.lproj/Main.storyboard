@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--AngryOinkers-->
+        <!--Bad Apples of CPD-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="PigListViewController" customModule="AngryOinkers" customModuleProvider="target" sceneMemberID="viewController">
@@ -37,13 +37,13 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="E0f-sp-euv">
                                                     <rect key="frame" x="103" y="11" width="117" height="62.333333333333343"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="pigName" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="azF-jL-pVE">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="pigName" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="azF-jL-pVE">
                                                             <rect key="frame" x="0.0" y="0.0" width="117" height="28.666666666666668"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="pigDescription" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QeW-0Z-Qui">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="pigDescription" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QeW-0Z-Qui">
                                                             <rect key="frame" x="0.0" y="40.666666666666664" width="117" height="21.666666666666664"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                             <nil key="textColor"/>
@@ -79,7 +79,7 @@
                             <constraint firstItem="jgS-pJ-hN8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="TSp-Ng-QqY"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="AngryOinkers" largeTitleDisplayMode="always" id="JDF-Ze-v75"/>
+                    <navigationItem key="navigationItem" title="Bad Apples of CPD" id="JDF-Ze-v75"/>
                     <connections>
                         <outlet property="tableView" destination="jgS-pJ-hN8" id="lLA-Ht-1WJ"/>
                     </connections>
@@ -105,8 +105,15 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuS-Ky-94i">
+                                        <rect key="frame" x="142" y="387" width="98" height="88"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <state key="normal" title="Click to email the mayor!"/>
+                                    </button>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="FOH-IQ-KiX" firstAttribute="bottom" secondItem="xuS-Ky-94i" secondAttribute="top" id="8Ni-Su-JK4"/>
+                                    <constraint firstItem="xuS-Ky-94i" firstAttribute="centerX" secondItem="FOH-IQ-KiX" secondAttribute="centerX" id="VKT-tm-KaK"/>
                                     <constraint firstItem="FOH-IQ-KiX" firstAttribute="centerY" secondItem="DTC-ha-bfT" secondAttribute="centerY" id="Ykf-qI-wFk"/>
                                     <constraint firstItem="FOH-IQ-KiX" firstAttribute="centerX" secondItem="DTC-ha-bfT" secondAttribute="centerX" id="tu9-nC-vEs"/>
                                 </constraints>
@@ -119,6 +126,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="4BJ-kx-lxe"/>
                     <connections>
+                        <outlet property="contactRepsButton" destination="xuS-Ky-94i" id="qxp-RB-xE7"/>
                         <outlet property="pigRoleLabel" destination="FOH-IQ-KiX" id="eGD-9z-BnE"/>
                     </connections>
                 </viewController>

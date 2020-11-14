@@ -10,6 +10,7 @@ import UIKit
 class DetailViewController: UIViewController {
     
     @IBOutlet weak var pigRoleLabel: UILabel!
+    @IBOutlet weak var contactRepsButton: UIButton!
     
     var pig: Pig!
     var pigCell: PigCell!
@@ -25,6 +26,10 @@ class DetailViewController: UIViewController {
         pigRoleLabel.lineBreakMode = NSLineBreakMode.byWordWrapping
         
         view.addSubview(pigRoleLabel)
+        
+        contactRepsButton.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        contactRepsButton.topAnchor.constraint(equalTo: pigRoleLabel.bottomAnchor).isActive = true
+        view.addSubview(contactRepsButton)
         
     }
     
