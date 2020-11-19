@@ -109,6 +109,9 @@
                                         <rect key="frame" x="142" y="387" width="98" height="88"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                         <state key="normal" title="Click to email the mayor!"/>
+                                        <connections>
+                                            <action selector="contactRepsButtonClick:" destination="Rot-X4-9H0" eventType="touchUpInside" id="1Nt-Wx-7eA"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>

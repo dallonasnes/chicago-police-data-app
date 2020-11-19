@@ -9,11 +9,12 @@ import Foundation
 
 class Pig : CustomDebugStringConvertible, Codable {
     var debugDescription: String {
-        return "Pig(name: \(self.name), role: \(self.role), cost: \(self.total_payments), complaints: \(self.complaint_count)"
+        return "Pig(name: \(self.name), role: \(self.role), cost: \(self.total_payments_string), complaints: \(self.complaint_count)"
     }
     
     var name: String
     var total_payments: Int32 = 0
+    var total_payments_string: String = "default"
     var complaint_count: Int32 = 0
     var role: String
     var imageUrl: String = "https://pbs.twimg.com/profile_images/1308585737483251712/16zo68yy_400x400.jpg"
