@@ -6,4 +6,10 @@ The app fetches publicly available data on active Chicago police officers from a
 
 Note that this app is a prototype. Future TODOs before launch include:
 1. Implement a more-thoughtful UI design
-1. Add required legal notices for data from lawsuits
+1. Add required legal notices for data from misconduct lawsuits
+1. Better project naming + images (current ones were are meant for a laugh during dev but not to be used in production)
+
+
+## To build
+1. Clone this repo
+1. Open in XCode -> Run on emulator
